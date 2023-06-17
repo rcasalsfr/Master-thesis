@@ -1,11 +1,11 @@
 # Master-thesis
-The aim of this project is to identify immune cell trajectories and gene regulatory networks on a tumour microenvironment. Evaluating its performance. 
-Moreover, another goal is to identify genes differentially expressed in order to characterise the trajectories and performing an enrichment analysis.
+This project's goal is to identify immune cell trajectories and gene regulatory networks in a tumour microenvironment. Its performance is being evaluated. 
+Another goal is to find genes that are differentially expressed in order to characterise the trajectories and perform enrichment analysis.
 
-Code folder:
-It contains the preprocessing steps used following Seurat workflow.
-Comparison of inference trajectory methods using Dynverse and Monocle3.
-Enrichment analysis with clusterProfiler (included on Monocle's3 files).
+Data was extracted from the GSE123813 repository. Only SCC patients samples were used.
 
-Dataset folder:
-It contains the processed data used in order to perform the analysis.
+Folder containing code:
+It includes the preprocessing steps used in the Seurat workflow.
+Dynverse and Monocle3 inference trajectory methods are compared.
+ClusterProfiler (included in the Monocle3 files) is used for enrichment analysis.
+
